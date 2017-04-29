@@ -1,5 +1,6 @@
 package com.example.android.musicalstructureapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -73,8 +74,11 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.goHome) {
             // Handle the home action
+            Intent i = new Intent(MainActivity.this, MainActivity.class);
+            startActivity(i);
         } else if (id == R.id.allMusic) {
-
+            Intent i = new Intent(MainActivity.this, AllMusicActivity.class);
+            startActivity(i);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

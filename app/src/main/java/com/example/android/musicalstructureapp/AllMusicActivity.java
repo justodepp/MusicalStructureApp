@@ -103,8 +103,11 @@ public class AllMusicActivity extends AppCompatActivity
 
         if (id == R.id.goHome) {
             // Handle the home action
+            Intent i = new Intent(AllMusicActivity.this, MainActivity.class);
+            startActivity(i);
         } else if (id == R.id.allMusic) {
-
+            Intent i = new Intent(AllMusicActivity.this, AllMusicActivity.class);
+            startActivity(i);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -1,5 +1,6 @@
 package com.example.android.musicalstructureapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -52,8 +53,11 @@ public class AlbumActivity extends AppCompatActivity
 
         if (id == R.id.goHome) {
             // Handle the home action
+            Intent i = new Intent(AlbumActivity.this, MainActivity.class);
+            startActivity(i);
         } else if (id == R.id.allMusic) {
-
+            Intent i = new Intent(AlbumActivity.this, AllMusicActivity.class);
+            startActivity(i);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
