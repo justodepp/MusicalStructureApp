@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MusicalStructureApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="mainContent">Some news from some feed!</string>
+    <string name="allMusic">All list of music divided by Genre, Artist, Album and so on..</string>
+    <string name="label_allMusic">All Music</string>
+    <string name="string_genre">Genre</string>
+    <string name="string_artist">Artist</string>
+    <string name="string_album">Album</string>
+</resources>
