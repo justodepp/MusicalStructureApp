@@ -6,7 +6,9 @@
 
     <string name="action_settings">Settings</string>
     <string name="mainContent">Some news from some feed!</string>
-    <string name="allMusic">All list of music divided by Genre, Artist, Album and so on..</string>
+    <string name="genreContent">List of all kind of music genre!</string>
+    <string name="albumContent">List of all album!</string>
+    <string name="artistContent">List of all artist!</string>
     <string name="label_allMusic">All Music</string>
     <string name="string_genre">Genre</string>
     <string name="string_artist">Artist</string>
