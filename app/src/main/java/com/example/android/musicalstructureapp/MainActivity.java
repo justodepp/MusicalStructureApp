@@ -77,8 +77,8 @@ public class MainActivity extends AppCompatActivity
             Intent i = new Intent(MainActivity.this, MainActivity.class);
             startActivity(i);
         } else if (id == R.id.allMusic) {
-            Intent i = new Intent(MainActivity.this, AllMusicActivity.class);
-            startActivity(i);
+            Intent z = new Intent(MainActivity.this, AllMusicActivity.class);
+            startActivity(z);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
