@@ -17,7 +17,7 @@ import android.widget.TextView;
  */
 
 public class AllMusicActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener   {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
